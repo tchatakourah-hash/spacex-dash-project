@@ -1,7 +1,10 @@
 import streamlit as st
 import pandas as pd
 import plotly.express as px
+import os
+import streamlit as st
 
+st.write(os.listdir())
 # =========================
 # LOAD DATA
 # =========================
